@@ -2,6 +2,8 @@ import 'package:darez/Home.dart';
 import 'package:darez/chat.dart';
 import 'package:flutter/material.dart';
 
+import 'Cart.dart';
+
 
 class Botombar extends StatefulWidget {
   const Botombar({Key? key}) : super(key: key);
@@ -15,7 +17,7 @@ class _BotombarState extends State<Botombar> {
   final pages=[
     Home(),
     Cha(),
-    Home(),
+    Cart(),
     Home(),
   ];
 

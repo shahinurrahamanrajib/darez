@@ -76,6 +76,7 @@ class _ChaState extends State<Cha> {
                                         child: Padding(
                                           padding: const EdgeInsets.all(8.0),
                                           child: Column(
+                                            
                                             mainAxisAlignment:
                                                 MainAxisAlignment.start,
                                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -101,6 +102,7 @@ class _ChaState extends State<Cha> {
                                                           color: Colors.red
                                                         )
                                                   ),
+
                                                 ]
                                               ))
                                             ],
@@ -116,7 +118,8 @@ class _ChaState extends State<Cha> {
                                             child: Image.asset(
                                                 'assets/images.jpg'),
                                           ),
-                                        ))
+                                        )),
+
                                   ],
                                 ),
                               );
