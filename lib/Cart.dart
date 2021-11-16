@@ -90,15 +90,51 @@ class _CartState extends State<Cart> {
                       : CrossFadeState.showSecond,
                   duration: Duration(seconds: 1)),
               ExpansionTile(
-                title: Text("KI DEKO ?"),
+
+                title: Text("Shahinur Rahaman Rajib",style: TextStyle(fontSize: 20),),
+                trailing: IconButton(onPressed: (){}, icon: Icon(Icons.call,size: 30,)),
+                leading: CircleAvatar(child: Icon(Icons.people,size: 30,color: Colors.white,),radius: 20,backgroundColor: Colors.green,),
+                subtitle: Text('01872108085',textAlign: TextAlign.left),
                 children: [
                   Container(
+
                     child: Row(
+                     mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
-                        IconButton(onPressed: (){},icon: Icon(Icons.ten_k,size:50,)),
-                        IconButton(onPressed: (){},icon: Icon(Icons.ten_k,size:50,)),
-                        IconButton(onPressed: (){},icon: Icon(Icons.ten_k,size:50,)),
-                        IconButton(onPressed: (){},icon: Icon(Icons.ten_k,size:50,)),
+
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Column(
+                            children: [
+                              IconButton(onPressed: (){},icon: Icon(Icons.video_call,size:30,)),
+                              SizedBox(height: 3,),
+                              Text("Video Call"),
+                            ],
+                          ),
+                        ),
+                        SizedBox(width: 30,),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Column(
+                            children: [
+                              IconButton(onPressed: (){},icon: Icon(Icons.message,size:30,)),
+                              SizedBox(height: 3,),
+                              Text("Message"),
+                            ],
+                          ),
+                        ),
+                        SizedBox(width: 30,),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Column(
+                            children: [
+                              IconButton(onPressed: (){},icon: Icon(Icons.history,size:30,)),
+                              SizedBox(height: 3,),
+                              Text("History"),
+                            ],
+                          ),
+                        ),
+
                       ],
                     ),
 
