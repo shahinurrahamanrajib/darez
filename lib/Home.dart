@@ -1,3 +1,4 @@
+import 'package:darez/Bottombar2.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {
@@ -91,12 +92,14 @@ class _HomeState extends State<Home> {
                       Center(
                           child: IconButton(
                         icon: Icon(
-                          Icons.ten_k,
+                          Icons.threesixty_rounded,
                           size: 40,
                         ),
-                        onPressed: () {},
+                        onPressed: () {
+                          Botombar2();
+                        },
                       )),
-                      Center(child: Text("Free Shipping")),
+                      Center(child: Text("  New Project")),
                     ],
                   ),
                 ),

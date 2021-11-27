@@ -1,4 +1,6 @@
+
 import 'package:darez/Home.dart';
+import 'package:darez/Setting.dart';
 import 'package:darez/chat.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +20,7 @@ class _BotombarState extends State<Botombar> {
     Home(),
     Cha(),
     Cart(),
-    Home(),
+    Setting(),
   ];
 
   @override

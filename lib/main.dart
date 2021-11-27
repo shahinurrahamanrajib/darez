@@ -1,3 +1,9 @@
+import 'package:darez/Bottombar.dart';
+import 'package:darez/Bottombar2.dart';
+import 'package:darez/ContactList.dart';
+import 'package:darez/ContactList1.dart';
+import 'package:darez/Ekhonishop.dart';
+import 'package:darez/Expandable.dart';
 import 'package:darez/shalssceren.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +18,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: splashscreen()
+      //home: Expandablee()
+
+     // home: ContactList(),
+      home: ContactList1(),
     );
   }
 }
